@@ -19,8 +19,10 @@ body{ /* Cor de fundo do site */
 }
 
 main{ /* Padding principal */
-    padding-top: 60px;
-    padding-bottom: 60px;   
+    max-width: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+
 }
 
 
@@ -30,7 +32,7 @@ main div{ /* Alinhamento dos itens */
 }
 
 main div#foto_pessoa img{ /* Bordas da imagem */ 
-    
+    max-width: 405px;
     border: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -45,19 +47,18 @@ main div#box_conteudo{ /*  Container das info  */
     height: 400px;
     margin: auto;
     min-width: 300px;
-    max-width: 450px;
+    max-width: 405px;
     background-color: white;
 }
 
 main div#box_conteudo p{ /* Configurações dos textos pequenos*/
+    margin: auto;
     font-size: 0.9em;
     font-family: var(--font_padrao);
-    text-align: center;
     max-width: 330px;
     font-weight: lighter;
     padding-top: 20px;
     padding-bottom: 25px;
-    padding-left: 55px;
     color: var(--font_text_color);
 }
 
@@ -124,7 +125,7 @@ main div#box_conteudo div#buttons div a#button_1{ /* Config do button 1 */
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.211);
     font-weight: bold;
     font-family: var(--font_padrao);
-    padding: 18px;
+    padding: 16px;
     border: 10px;
     border-radius: 20px;
     background-color: blue;
@@ -132,7 +133,7 @@ main div#box_conteudo div#buttons div a#button_1{ /* Config do button 1 */
     text-decoration: none;
     margin: auto;
     display: block;
-    width: 380px;
+    width: 350px;
 }
 
 main div#box_conteudo div#buttons div a#button_2{ /*  Config do button 2 */
